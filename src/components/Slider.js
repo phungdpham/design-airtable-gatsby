@@ -65,7 +65,7 @@ const Slider = () => {
           }
           return (
             <article className={position} key={customerIndex}>
-              {/* <Image fixed={customerImg} className="img"></Image> */}
+              <Image fixed={customerImg} className="img"></Image>
               <h4>{name}</h4>
               <p className="title">{title}</p>
               <p className="text">{quote}</p>
